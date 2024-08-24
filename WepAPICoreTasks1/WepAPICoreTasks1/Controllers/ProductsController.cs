@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WepAPICoreTasks1.Models;
 
 namespace WepAPICoreTasks1.Controllers
@@ -24,8 +25,12 @@ namespace WepAPICoreTasks1.Controllers
         [HttpGet("id")]
         public IActionResult GetProductById(int id)
         {
+            
+
             var products = _db.Products.Where(c => c.ProductId == id).ToList();
-            return Ok(products);
+            var cat = _db.Products.Where(c => c.ProductId == id)
+                .Include(c => c.Category).ToList();
+            return Ok(cat);
         }
     }
 }

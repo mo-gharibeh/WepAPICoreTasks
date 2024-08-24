@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WepAPICoreTasks1.Models;
 
 namespace WepAPICoreTasks1.Controllers
@@ -16,7 +17,14 @@ namespace WepAPICoreTasks1.Controllers
         }
         [HttpGet]
         public IActionResult getAllCategories()
-        {
+        { 
+
+        //{
+        //    var cartItems = db.Carts
+        //                      .Where(c => c.UserID == id)
+        //                      .SelectMany(c => c.CartItems)
+        //                      .Include(ci => ci.Product) // جلب تفاصيل المنتج
+        //                      .ToList();
             var categories = _db.Categories.ToList();
             return Ok(categories);
         }
@@ -24,6 +32,9 @@ namespace WepAPICoreTasks1.Controllers
         [HttpGet("id")]
         public IActionResult GetCategoryById(int id) 
         {
+            
+
+
             var categories = _db.Categories.Where(c => c.CategoryId == id).ToList();
             return Ok(categories);
         }

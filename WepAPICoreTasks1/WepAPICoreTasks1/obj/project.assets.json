@@ -4529,11 +4529,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\WepAPICoreTasks1.csproj",
+      "projectUniqueName": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\WepAPICoreTasks1.csproj",
       "projectName": "WepAPICoreTasks1",
-      "projectPath": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\WepAPICoreTasks1.csproj",
+      "projectPath": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\WepAPICoreTasks1.csproj",
       "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\obj\\",
+      "outputPath": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
