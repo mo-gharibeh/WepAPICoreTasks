@@ -19,12 +19,7 @@ namespace WepAPICoreTasks1.Controllers
         public IActionResult getAllCategories()
         { 
 
-        //{
-        //    var cartItems = db.Carts
-        //                      .Where(c => c.UserID == id)
-        //                      .SelectMany(c => c.CartItems)
-        //                      .Include(ci => ci.Product) // جلب تفاصيل المنتج
-        //                      .ToList();
+     
             var categories = _db.Categories.ToList();
             return Ok(categories);
         }
@@ -38,5 +33,25 @@ namespace WepAPICoreTasks1.Controllers
             var categories = _db.Categories.Where(c => c.CategoryId == id).ToList();
             return Ok(categories);
         }
+
+        [Route("category/AllCategories")]
+        [HttpGet]
+        public IActionResult AllCategories()
+        {
+            var categories = _db.Categories.ToList();
+            return Ok(categories);
+        }
+
+        //[Route("category/{id:int:min(5)}")]
+        //[HttpGet]
+        //public IActionResult GetCategoryById(int id)
+        //{
+        //    if (id < 0)
+        //    {
+        //        return BadRequest($"Invalid input: {id}");
+        //    }
+        //    var catigory 
+        //    return Ok();
+        //}
     }
 }

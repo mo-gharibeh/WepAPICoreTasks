@@ -21,16 +21,24 @@ namespace WepAPICoreTasks1.Controllers
             var products = _db.Products.ToList();
             return Ok(products);
         }
-
-        [HttpGet("id")]
+        ///// this
+        [Route("category/{id}")]
+        [HttpGet]
         public IActionResult GetProductById(int id)
         {
             
 
-            var products = _db.Products.Where(c => c.ProductId == id).ToList();
-            var cat = _db.Products.Where(c => c.ProductId == id)
-                .Include(c => c.Category).ToList();
-            return Ok(cat);
+            var products = _db.Products.Where(c => c.CategoryId == id).ToList();
+            
+            return Ok(products);
+        }
+        [Route("product/{id}")]
+        [HttpGet]
+        public IActionResult ProductById(int id)
+        {
+            var products = _db.Products.Where(c => c.ProductId == id).FirstOrDefault();
+
+            return Ok(products);
         }
     }
 }
