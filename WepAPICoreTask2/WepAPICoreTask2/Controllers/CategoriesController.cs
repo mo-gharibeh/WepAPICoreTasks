@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WepAPICoreTask2.DTOs;
 using WepAPICoreTask2.Models;
 
 namespace WepAPICoreTask2.Controllers
@@ -99,6 +100,67 @@ namespace WepAPICoreTask2.Controllers
             return NotFound($"Category '{id}' not found.");
         }
 
+        /////////////////////////////
+
+        // Add
+        [HttpPost]
+        public IActionResult AddNewCategory([FromForm] categoryRequestDTO categoryDTO)
+        {
+
+            if (categoryDTO.CategroyImage != null)
+            {
+                var uploadsFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+                if (!Directory.Exists(uploadsFolderPath))
+                {
+                    Directory.CreateDirectory(uploadsFolderPath);
+                }
+                var filePath = Path.Combine(uploadsFolderPath, categoryDTO.CategroyImage.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    categoryDTO.CategroyImage.CopyToAsync(stream);
+                }
+                var NewCategory = new Category
+                {
+                    CategoryName = categoryDTO.CategroyName,
+                    CategoryImage = categoryDTO.CategroyImage.FileName
+                };
+                _db.Categories.Add(NewCategory);
+                _db.SaveChanges();
+
+            }
+            return Ok();
+
+
+
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateCategory(int id, [FromForm] categoryRequestDTO CategoryDto)
+        {
+
+            var x = _db.Categories.Find(id);
+
+
+            var uploadsFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(uploadsFolderPath))
+            {
+                Directory.CreateDirectory(uploadsFolderPath);
+            }
+            var filePath = Path.Combine(uploadsFolderPath, CategoryDto.CategroyImage.FileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                CategoryDto.CategroyImage.CopyToAsync(stream);
+            }
+            x.CategoryName = CategoryDto.CategroyName;
+            x.CategoryImage = CategoryDto.CategroyImage.FileName;
+
+            _db.Categories.Update(x);
+
+            _db.SaveChanges();
+            return NoContent();
+
+
+        }
 
     }
 }

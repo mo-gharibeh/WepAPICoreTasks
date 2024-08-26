@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WepAPICoreTask2.DTOs;
 using WepAPICoreTask2.Models;
 
 namespace WepAPICoreTask2.Controllers
@@ -95,5 +96,48 @@ namespace WepAPICoreTask2.Controllers
             }
             return NotFound($"Name '{name}' not found.");
         }
+
+        ///////////////////////////
+        ///
+
+        // Add
+        [HttpPost]
+        public IActionResult CreateUser([FromForm] UserRequestDTO UserDTO)
+        {
+
+            var newUser = new User
+            {
+                Username = UserDTO.Username,
+                Email = UserDTO.Email,
+                Password = UserDTO.Password
+            };
+            _db.Users.Add(newUser);
+            _db.SaveChanges();
+            return Ok();
+
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult UpdateUser(int id, [FromForm] UserRequestDTO UserDTO)
+        {
+
+            var x = _db.Users.Find(id);
+            if (x == null)
+            {
+                return NotFound();
+            }
+
+            x.Username = UserDTO.Username ?? x.Username;
+            x.Email = UserDTO.Email ?? x.Username;
+
+            x.Password = UserDTO.Password ?? x.Password;
+
+
+            _db.Users.Update(x);
+            _db.SaveChanges();
+            return NoContent();
+        }
+
+
     }
 }
