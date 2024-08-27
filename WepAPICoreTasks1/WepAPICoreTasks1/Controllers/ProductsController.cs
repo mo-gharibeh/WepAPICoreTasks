@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using WepAPICoreTasks1.DTOs;
 using WepAPICoreTasks1.Models;
 
 namespace WepAPICoreTasks1.Controllers
@@ -15,12 +16,18 @@ namespace WepAPICoreTasks1.Controllers
         {
             _db = db;
         }
+
+
+
         [HttpGet]
         public IActionResult getAllProducts()
         {
             var products = _db.Products.ToList();
             return Ok(products);
         }
+
+
+
         ///// this
         [Route("category/{id}")]
         [HttpGet]
@@ -39,6 +46,163 @@ namespace WepAPICoreTasks1.Controllers
             var products = _db.Products.Where(c => c.ProductId == id).FirstOrDefault();
 
             return Ok(products);
+        }
+        [HttpGet("Product/{id:min(5)}")]
+
+        public IActionResult GetgetAllProductById(int id)
+        {
+
+            if (id < 0)
+            {
+                return BadRequest($"Invalid input: {id}");
+            }
+
+            var products = _db.Products.Where(model => model.ProductId == id);
+
+            if (products == null)
+            {
+                return NotFound($"Product '{id}' not found.");
+            }
+
+            return Ok(products);
+        }
+
+        [HttpGet("Product/{name}")]
+
+        public IActionResult GetProductByName(string name)
+        {
+
+            if (name == null)
+            {
+                return BadRequest($"Invalid input: {name}");
+            }
+
+            var products = _db.Products.Where(model => model.ProductName == name);
+
+            if (products == null)
+            {
+                return NotFound($"Product '{name}' not found.");
+            }
+
+            return Ok(products);
+        }
+
+        [HttpDelete("Product/{name}")]
+        public IActionResult DeleteCategoryByName(string name)
+        {
+
+            var delProduct = _db.Products.FirstOrDefault(e => e.ProductName == name);
+
+            if (delProduct != null)
+            {
+                _db.Products.Remove(delProduct);
+                _db.SaveChanges();
+                return Ok($"Category '{name}' deleted successfully.");
+            }
+
+            return NotFound($"Category '{name}' not found.");
+        }
+
+        // Add
+
+        [HttpPost]
+        public IActionResult CreateProduct([FromForm] ProductRequestDTO productDTO)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            if (productDTO.ProductImage != null)
+            {
+                var uploadsFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+                if (!Directory.Exists(uploadsFolderPath))
+                {
+                    Directory.CreateDirectory(uploadsFolderPath);
+                }
+                var filePath = Path.Combine(uploadsFolderPath, productDTO.ProductImage.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    productDTO.ProductImage.CopyToAsync(stream);
+                }
+                var x = new Product
+                {
+                    CategoryId = productDTO.CategoryId,
+                    ProductName = productDTO.ProductName,
+                    Description = productDTO.Description,
+                    ProductImage = productDTO.ProductImage.FileName,
+                    Price = productDTO.Price
+                };
+                _db.Products.Add(x);
+                _db.SaveChanges();
+                return Ok();
+
+            }
+            return Ok();
+
+        }
+        [HttpPut("{id}")]
+        public IActionResult UpdateProduct(int id, [FromForm] ProductRequestDTO productDto)
+        {
+
+
+            var uploadsFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Uploads");
+            if (!Directory.Exists(uploadsFolderPath))
+            {
+                Directory.CreateDirectory(uploadsFolderPath);
+            }
+            var filePath = Path.Combine(uploadsFolderPath, productDto.ProductImage.FileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                productDto.ProductImage.CopyToAsync(stream);
+            }
+
+            var x = _db.Products.Find(id);
+            if (x == null)
+            {
+                return NotFound();
+            }
+
+            x.ProductName = productDto.ProductName ?? x.ProductName;
+            x.Description = productDto.Description ?? x.Description;
+            if (productDto.ProductImage != null)
+            {
+                x.ProductImage = productDto.ProductImage.FileName;
+            }
+            x.Price = productDto.Price;
+
+            _db.Products.Update(x);
+            _db.SaveChanges();
+            return NoContent();
+        }
+
+        [HttpGet("Math")]
+        public IActionResult Calculater(string input)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            string[] x = input.Split(' ');
+
+            var num1 = Convert.ToDouble(x[0]);
+            var op = x[1];
+            var num2 = Convert.ToDouble(x[2]);
+            if (op == "+")
+            {
+                var sum = (num1 + num2);
+                return Ok(sum);
+            }
+            else if (op == "-")
+            {
+                var min = (num1 - num2);
+                return Ok(min);
+            }
+            else
+            {
+                return Ok();
+            }
+
         }
     }
 }

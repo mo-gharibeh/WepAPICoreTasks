@@ -24,7 +24,7 @@ async function getCategory() {
                             <h5 class="card-title">${element.productName}</h5>
                             <p class="card-text">${element.description}</p>
                             
-                            <a class="btn btn-primary" href="details.html" onclick="store(${element.productId})">Store Data</a>
+                            <a class="btn btn-primary" href="details.html" onclick="store(${element.productId})">Details</a>
                         </div>
                     </div>
                 </div>
