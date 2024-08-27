@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Sidebar styling */
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #f8f9fa;
+            padding-top: 60px;
+        }
+        .sidebar a {
+            padding: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #333;
+            display: block;
+        }
+        .sidebar a:hover {
+            background-color: #ddd;
+            color: #007bff;
+        }
+        /* Main content styling */
+        .content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="test.html">Home</a>
+        <a href="Category.html">Category</a>
+        <a onclick="reset()" href="Product.html">Product</a>
+        <a href="#" onclick="reset()">Reset</a>
+    </div>
+
+    <!-- Main content -->
+    <!-- Card -->
+    <div class="content">
+        <h2>Add New Product</h2>
+        <div class="container mt-5">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card shadow-lg">
+                        <div class="card-body">
+                            <form id="form">
+                                <div class="form-group">
+                                    <label for="CategoryId">Category ID</label>
+                                    <select class="form-control" id="CategoryId" name="CategoryId">
+                                        <option value="" disabled selected>Select a Category</option>
+                                    </select>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="ProductName">Product Name</label>
+                                    <input type="text" class="form-control" id="ProductName" name="ProductName" >
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="Price">Price</label>
+                                    <input type="number" class="form-control" id="Price" name="Price" >
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="description">Description</label>
+                                    <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <label for="ProductImage">Product Image</label>
+                                    <input type="file" class="form-control-file" id="ProductImage" name="ProductImage">
+                                </div>
+                                <button type="submit" onclick="save()"  class="btn btn-primary mt-4 w-100">Add</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Add your content here -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script>
+        function reset(){
+            localStorage.clear();
+        }
+    </script>
+
+    <script src="../Dashboard/AddNewProduct.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
