@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using WepAPICoreTasks1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,6 +35,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseStaticFiles(); // Serves static files from the wwwroot folder by default
+
+// Serve files from the images folder
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(
+        Path.Combine(builder.Environment.ContentRootPath, "Uploads")),
+    RequestPath = "/Uploads" // the path of the images folder 
+});
 
 app.UseHttpsRedirection();
 

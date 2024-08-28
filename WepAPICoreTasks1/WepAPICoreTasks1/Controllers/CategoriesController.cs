@@ -120,17 +120,19 @@ namespace WepAPICoreTasks1.Controllers
                 {
                     categoryDTO.CategoryImage.CopyToAsync(stream);
                 }
+
                 var NewCategory = new Category
                 {
                     CategoryName = categoryDTO.CategoryName,
-                    CategoryImage = categoryDTO.CategoryImage.FileName
+                    CategoryImage = $"{Request.Scheme}://{Request.Host}/Uploads/{categoryDTO.CategoryImage.FileName}"
                 };
+
                 _db.Categories.Add(NewCategory);
                 _db.SaveChanges();
 
+            return Ok(NewCategory);
             }
-            return Ok();
-
+            return BadRequest();
 
 
         }
@@ -176,5 +178,33 @@ namespace WepAPICoreTasks1.Controllers
         //    var catigory 
         //    return Ok();
         //}
-    }
+
+        [HttpGet("CheckTowNumber")]
+        public IActionResult towNum(int a, int b)
+        {
+            if (a == 30 || b == 30 || (a + b) == 30)
+            {
+                return Ok("True");
+            }
+            else  
+            {
+                return Ok("false");
+            }
+           
+        }
+
+        [HttpGet("CheckOneNumber")]
+        public IActionResult oneNum(int a)
+        {
+            if ((a % 3 == 0 || a % 7 == 0) && (a > 0))
+            {
+                return Ok("True");
+            }
+            else
+            {
+                return Ok("False");
+            }
+        }
+
+        }
 }

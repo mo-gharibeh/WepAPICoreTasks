@@ -153,5 +153,35 @@ namespace WepAPICoreTask2.Controllers
             return NoContent();
         }
 
+        [HttpGet("Math")]
+        public IActionResult Calculater(string input)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            string[] x = input.Split(' ');
+
+            var num1 = Convert.ToDouble(x[0]);
+            var op = x[1];
+            var num2 = Convert.ToDouble(x[2]); 
+            if (op == "+")
+            {
+                var sum = (num1 + num2);
+                return Ok(sum);
+            }
+            else if (op == "-")
+            {
+                var min = (num1 - num2);
+                return Ok(min);
+            }
+            else
+            {
+                return Ok();
+            }
+
+        }
+
     }
 }

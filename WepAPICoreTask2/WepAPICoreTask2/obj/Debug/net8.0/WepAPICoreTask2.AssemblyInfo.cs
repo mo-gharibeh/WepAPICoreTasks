@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WepAPICoreTask2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1de31d7a4f39554c12b83e6a6708ebaa7916daeb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eff31ce6a2f3d27c52b0447eedc9f3c626be1ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("WepAPICoreTask2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WepAPICoreTask2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
