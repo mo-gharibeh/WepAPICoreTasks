@@ -26,6 +26,8 @@ async function getCategory() {
                             <h5 class="card-title">The Price : ${result[0].price}</h5>
                             <p class="card-text">${result[0].description}</p>                         
                         </div>
+                        <input type="number" name="quantity" id="quantity" ></input>
+                        <button type="button" class="btn btn-primary mt-4 w-100" onclick="addToCart()">Add To Cart</button>
                         <a href="editProduct.html" class="btn btn-primary mt-4 w-100">Edit Product</a>
                     </div>
                 </div>
@@ -37,6 +39,29 @@ async function getCategory() {
 
 }
 
+
+async function addToCart(){
+    let quantity = document.getElementById("quantity").value;
+    const url1 = "https://localhost:44367/api/CartItem"
+    var request = {
+        productId: n,
+        quantity: quantity,
+        cartId : 4
+    }
+    let response = await fetch (url1, 
+        {
+            method: 'POST',
+            body : JSON.stringify(request),
+            headers : {
+                'Content-Type' : 'application/json'
+            }
+        }
+    )
+    
+
+    alert("Product added to cart");
+    
+}
 function reset(){
     localStorage.clear();
 } 
