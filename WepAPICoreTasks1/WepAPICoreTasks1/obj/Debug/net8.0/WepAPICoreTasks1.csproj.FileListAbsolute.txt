@@ -273,3 +273,12 @@ C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPIC
 C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\obj\Debug\net8.0\WepAPICo.BEC1B37D.Up2Date
 C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\obj\Debug\net8.0\WepAPICoreTasks1.genruntimeconfig.cache
 C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\obj\Debug\net8.0\ref\WepAPICoreTasks1.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Sinks.File.dll

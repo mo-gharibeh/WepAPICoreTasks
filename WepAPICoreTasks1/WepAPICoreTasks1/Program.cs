@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using Serilog;
 using WepAPICoreTasks1.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,6 +25,15 @@ options.AddPolicy("Development", builder =>
 
 builder.Services.AddDbContext<MyDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("YourConnectionString")));
+
+
+
+   Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("app.log", rollingInterval: RollingInterval.Day)// Default file path);
+    .CreateLogger();
+
+builder.Host.UseSerilog();  //write it under the var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 app.UseCors("Development");

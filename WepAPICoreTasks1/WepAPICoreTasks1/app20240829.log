@@ -1,0 +1,1327 @@
+2024-08-29 15:17:26.516 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 15:17:26.556 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 15:17:26.556 +03:00 [INF] Hosting environment: Development
+2024-08-29 15:17:26.557 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 15:17:26.567 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 15:17:26.691 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 125.5255ms
+2024-08-29 15:17:26.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 15:17:26.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 15:17:26.699 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.4259ms
+2024-08-29 15:17:26.717 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.3487ms
+2024-08-29 15:17:26.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 15:17:27.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.7563ms
+2024-08-29 15:18:58.971 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 15:18:59.008 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 15:18:59.008 +03:00 [INF] Hosting environment: Development
+2024-08-29 15:18:59.008 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 15:18:59.016 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 15:18:59.158 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 142.0396ms
+2024-08-29 15:18:59.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 15:18:59.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 15:18:59.167 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0095ms
+2024-08-29 15:18:59.188 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.2204ms
+2024-08-29 15:18:59.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 15:18:59.383 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.5798ms
+2024-08-29 15:19:06.186 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products - null null
+2024-08-29 15:19:06.196 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1)'
+2024-08-29 15:19:06.205 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-08-29 15:19:07.040 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-29 15:19:07.086 +03:00 [INF] All Product
+2024-08-29 15:19:07.089 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 15:19:07.102 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1) in 894.7436ms
+2024-08-29 15:19:07.102 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1)'
+2024-08-29 15:19:07.108 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products - 200 null application/json; charset=utf-8 921.2069ms
+2024-08-29 15:32:00.391 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 15:32:00.427 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 15:32:00.427 +03:00 [INF] Hosting environment: Development
+2024-08-29 15:32:00.427 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 15:32:00.437 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 15:32:00.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 125.8411ms
+2024-08-29 15:32:00.564 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 15:32:00.564 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 15:32:00.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0085ms
+2024-08-29 15:32:00.585 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4559ms
+2024-08-29 15:32:00.876 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 15:32:00.956 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.0159ms
+2024-08-29 15:32:10.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products - null null
+2024-08-29 15:32:10.300 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1)'
+2024-08-29 15:32:10.308 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-08-29 15:32:11.165 +03:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-29 15:32:11.227 +03:00 [INF] All Product
+2024-08-29 15:32:11.227 +03:00 [INF] you excuted the get product api 
+2024-08-29 15:32:11.227 +03:00 [INF] the cont of this products are 17
+2024-08-29 15:32:11.227 +03:00 [INF] the cont of this products are {}
+2024-08-29 15:32:11.230 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 15:32:11.245 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1) in 934.0754ms
+2024-08-29 15:32:11.245 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1)'
+2024-08-29 15:32:11.251 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products - 200 null application/json; charset=utf-8 961.4418ms
+2024-08-29 15:47:32.887 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 15:47:32.925 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 15:47:32.926 +03:00 [INF] Hosting environment: Development
+2024-08-29 15:47:32.926 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 15:47:32.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 15:47:33.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 135.2588ms
+2024-08-29 15:47:33.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 15:47:33.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 15:47:33.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.8307ms
+2024-08-29 15:47:33.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6823ms
+2024-08-29 15:47:33.187 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 15:47:33.265 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.89ms
+2024-08-29 15:47:58.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products - null null
+2024-08-29 15:47:58.165 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1)'
+2024-08-29 15:47:58.176 +03:00 [INF] Route matched with {action = "getAllProducts", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult getAllProducts() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-08-29 15:47:59.048 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+2024-08-29 15:47:59.093 +03:00 [INF] All Product
+2024-08-29 15:47:59.093 +03:00 [INF] you excuted the get product api 
+2024-08-29 15:47:59.093 +03:00 [INF] the cont of this products are 17
+2024-08-29 15:47:59.093 +03:00 [INF] the cont of this products are {}
+2024-08-29 15:47:59.096 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 15:47:59.110 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1) in 931.4733ms
+2024-08-29 15:47:59.110 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.getAllProducts (WepAPICoreTasks1)'
+2024-08-29 15:47:59.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products - 200 null application/json; charset=utf-8 957.0325ms
+2024-08-29 15:52:52.773 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 15:52:52.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 6.0453ms
+2024-08-29 15:52:52.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 15:52:52.789 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 15:52:52.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.8009ms
+2024-08-29 15:52:52.800 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.7518ms
+2024-08-29 15:52:52.858 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 15:52:52.867 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4378ms
+2024-08-29 15:53:18.198 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 15:53:18.236 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 15:53:18.236 +03:00 [INF] Hosting environment: Development
+2024-08-29 15:53:18.236 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 15:53:18.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 15:53:18.359 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 114.3735ms
+2024-08-29 15:53:18.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 15:53:18.367 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 15:53:18.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0952ms
+2024-08-29 15:53:18.388 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.7582ms
+2024-08-29 15:53:18.452 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 15:53:18.536 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.7927ms
+2024-08-29 16:37:28.869 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 16:37:28.903 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 16:37:28.904 +03:00 [INF] Hosting environment: Development
+2024-08-29 16:37:28.904 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 16:37:28.912 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 16:37:29.042 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 129.6156ms
+2024-08-29 16:37:29.046 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 16:37:29.047 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 16:37:29.049 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.3769ms
+2024-08-29 16:37:29.070 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.9542ms
+2024-08-29 16:37:29.228 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 16:37:29.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.0559ms
+2024-08-29 16:37:56.997 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:37:57.002 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:37:57.011 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:37:57.928 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:37:57.944 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:37:57.957 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 943.0898ms
+2024-08-29 16:37:57.957 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:37:57.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 965.9127ms
+2024-08-29 16:38:15.475 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44367/api/CartItem/Delete/9 - null null
+2024-08-29 16:38:15.478 +03:00 [INF] CORS policy execution successful.
+2024-08-29 16:38:15.478 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-08-29 16:38:15.484 +03:00 [INF] Route matched with {action = "deleteItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult deleteItem(Int32) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:38:15.591 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-08-29 16:38:15.693 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [CartItemID] = @p0;
+2024-08-29 16:38:15.698 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-29 16:38:15.699 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1) in 214.926ms
+2024-08-29 16:38:15.699 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-08-29 16:38:15.700 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44367/api/CartItem/Delete/9 - 200 null text/plain; charset=utf-8 224.5509ms
+2024-08-29 16:38:21.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:38:21.095 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:38:21.096 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:38:21.154 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:38:21.155 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:38:21.155 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 59.8102ms
+2024-08-29 16:38:21.156 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:38:21.156 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 60.7581ms
+2024-08-29 16:57:58.818 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-08-29 16:57:58.855 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 16:57:58.855 +03:00 [INF] Hosting environment: Development
+2024-08-29 16:57:58.856 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-08-29 16:57:58.864 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-08-29 16:57:58.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-29 16:57:58.989 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-08-29 16:57:58.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 124.4661ms
+2024-08-29 16:57:58.991 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.3684ms
+2024-08-29 16:57:59.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.3926ms
+2024-08-29 16:57:59.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-08-29 16:57:59.376 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 83.5706ms
+2024-08-29 16:58:08.438 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:58:08.452 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:58:08.462 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:58:09.413 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:58:09.442 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:58:09.451 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 987.0554ms
+2024-08-29 16:58:09.451 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:58:09.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1017.3009ms
+2024-08-29 16:58:31.577 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/7 - application/json 21
+2024-08-29 16:58:31.580 +03:00 [INF] CORS policy execution successful.
+2024-08-29 16:58:31.581 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 16:58:31.588 +03:00 [INF] Route matched with {action = "addItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addItem(Int32, WepAPICoreTasks1.DTOs.CartItemRequestDTO) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:58:31.665 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 16:58:31.764 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-08-29 16:58:31.774 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-29 16:58:31.775 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1) in 186.5018ms
+2024-08-29 16:58:31.775 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 16:58:31.775 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/7 - 204 null null 197.8733ms
+2024-08-29 16:58:45.084 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:58:45.085 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:58:45.085 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:58:45.142 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:58:45.142 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:58:45.143 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 57.5434ms
+2024-08-29 16:58:45.143 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:58:45.143 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 58.5993ms
+2024-08-29 16:59:28.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:59:28.345 +03:00 [INF] CORS policy execution successful.
+2024-08-29 16:59:28.346 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:59:28.346 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:59:28.351 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:59:28.352 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:59:28.353 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 7.3972ms
+2024-08-29 16:59:28.353 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:59:28.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 9.092ms
+2024-08-29 16:59:51.198 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:59:51.199 +03:00 [INF] CORS policy execution successful.
+2024-08-29 16:59:51.199 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:59:51.199 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:59:51.201 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:59:51.201 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:59:51.202 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.1217ms
+2024-08-29 16:59:51.202 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:59:51.202 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.2418ms
+2024-08-29 16:59:57.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 16:59:57.419 +03:00 [INF] CORS policy execution successful.
+2024-08-29 16:59:57.419 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:59:57.419 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 16:59:57.421 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 16:59:57.422 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 16:59:57.422 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.0215ms
+2024-08-29 16:59:57.422 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 16:59:57.423 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.8518ms
+2024-08-29 17:01:55.217 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:01:55.217 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:01:55.217 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:01:55.217 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:01:55.224 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:01:55.224 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:01:55.224 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 6.9601ms
+2024-08-29 17:01:55.225 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:01:55.225 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 8.1663ms
+2024-08-29 17:01:56.540 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:01:56.540 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:01:56.540 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:01:56.541 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:01:56.543 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:01:56.543 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:01:56.544 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.099ms
+2024-08-29 17:01:56.544 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:01:56.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.3572ms
+2024-08-29 17:02:02.128 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:02:02.128 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:02:02.129 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:02.129 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:02:02.131 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:02:02.131 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:02:02.131 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.4564ms
+2024-08-29 17:02:02.131 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:02.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.195ms
+2024-08-29 17:02:03.458 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:02:03.458 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:02:03.458 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:03.458 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:02:03.459 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:02:03.460 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:02:03.460 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.133ms
+2024-08-29 17:02:03.460 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:03.460 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.7997ms
+2024-08-29 17:02:06.662 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:02:06.662 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:02:06.662 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:06.663 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:02:06.665 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:02:06.666 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:02:06.666 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.2334ms
+2024-08-29 17:02:06.666 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:06.666 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.0498ms
+2024-08-29 17:02:14.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:02:14.399 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:02:14.399 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:14.399 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:02:14.401 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:02:14.401 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:02:14.402 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.218ms
+2024-08-29 17:02:14.402 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:14.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.2574ms
+2024-08-29 17:02:34.280 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:02:34.280 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:02:34.281 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:34.281 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:02:34.282 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:02:34.282 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:02:34.283 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.695ms
+2024-08-29 17:02:34.283 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:34.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.7018ms
+2024-08-29 17:02:41.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:02:41.704 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:02:41.704 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:41.704 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:02:41.708 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:02:41.708 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:02:41.709 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 4.4969ms
+2024-08-29 17:02:41.709 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:02:41.709 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.4263ms
+2024-08-29 17:03:06.059 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:03:06.059 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:03:06.059 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:03:06.059 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:03:06.061 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:03:06.061 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:03:06.062 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.4211ms
+2024-08-29 17:03:06.062 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:03:06.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.2079ms
+2024-08-29 17:03:28.277 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:03:28.277 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:03:28.277 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:03:28.277 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:03:28.279 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:03:28.279 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:03:28.279 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.6333ms
+2024-08-29 17:03:28.279 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:03:28.280 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.7274ms
+2024-08-29 17:03:30.910 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:03:30.910 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:03:30.911 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:03:30.911 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:03:30.912 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:03:30.913 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:03:30.913 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.4456ms
+2024-08-29 17:03:30.913 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:03:30.913 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.1235ms
+2024-08-29 17:04:01.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:01.315 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:01.315 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:01.315 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:01.318 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:01.318 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:01.319 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.7266ms
+2024-08-29 17:04:01.319 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:01.319 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.4185ms
+2024-08-29 17:04:27.691 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:27.691 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:27.691 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:27.691 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:27.693 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:27.693 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:27.693 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.8555ms
+2024-08-29 17:04:27.693 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:27.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3581ms
+2024-08-29 17:04:33.620 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:33.620 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:33.620 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:33.620 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:33.622 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:33.622 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:33.622 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7024ms
+2024-08-29 17:04:33.622 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:33.622 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.301ms
+2024-08-29 17:04:36.676 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:36.677 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:36.677 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:36.677 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:36.678 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:36.679 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:36.679 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.2403ms
+2024-08-29 17:04:36.679 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:36.679 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.7656ms
+2024-08-29 17:04:38.314 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:38.314 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:38.314 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:38.314 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:38.316 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:38.316 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:38.316 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7012ms
+2024-08-29 17:04:38.316 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:38.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3187ms
+2024-08-29 17:04:42.007 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:42.007 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:42.007 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:42.007 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:42.008 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:42.008 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:42.009 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.8378ms
+2024-08-29 17:04:42.009 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:42.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3189ms
+2024-08-29 17:04:43.914 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:43.914 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:43.914 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:43.914 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:43.915 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:43.916 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:43.916 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.8465ms
+2024-08-29 17:04:43.916 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:43.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3245ms
+2024-08-29 17:04:45.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:04:45.727 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:04:45.727 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:45.727 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:04:45.728 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:04:45.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:04:45.729 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5234ms
+2024-08-29 17:04:45.729 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:04:45.729 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.1954ms
+2024-08-29 17:05:20.409 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:05:20.409 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:05:20.409 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:20.409 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:05:20.412 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:05:20.412 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:05:20.413 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.7635ms
+2024-08-29 17:05:20.413 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:20.413 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.4109ms
+2024-08-29 17:05:21.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:05:21.913 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:05:21.913 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:21.913 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:05:21.915 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:05:21.915 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:05:21.915 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7412ms
+2024-08-29 17:05:21.915 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:21.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3313ms
+2024-08-29 17:05:25.621 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:05:25.621 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:05:25.621 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:25.621 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:05:25.622 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:05:25.623 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:05:25.623 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7565ms
+2024-08-29 17:05:25.623 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:25.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.2446ms
+2024-08-29 17:05:43.094 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:05:43.094 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:05:43.094 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:43.094 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:05:43.096 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:05:43.096 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:05:43.096 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.9242ms
+2024-08-29 17:05:43.096 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:43.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.6361ms
+2024-08-29 17:05:48.265 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:05:48.265 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:05:48.265 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:48.265 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:05:48.267 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:05:48.267 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:05:48.267 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7973ms
+2024-08-29 17:05:48.267 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:48.267 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.5162ms
+2024-08-29 17:05:52.131 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:05:52.132 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:05:52.132 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:52.132 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:05:52.136 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:05:52.137 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:05:52.137 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 5.0538ms
+2024-08-29 17:05:52.137 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:05:52.137 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.7039ms
+2024-08-29 17:07:57.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:07:57.817 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:07:57.817 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:07:57.817 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:07:57.821 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:07:57.822 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:07:57.822 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 4.5127ms
+2024-08-29 17:07:57.822 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:07:57.822 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.4193ms
+2024-08-29 17:08:32.595 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:08:32.596 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:08:32.596 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:32.596 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:08:32.600 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:08:32.600 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:08:32.601 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 4.5887ms
+2024-08-29 17:08:32.601 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:32.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.338ms
+2024-08-29 17:08:36.009 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:08:36.009 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:08:36.009 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:36.009 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:08:36.010 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:08:36.010 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:08:36.011 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.307ms
+2024-08-29 17:08:36.011 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:36.011 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.7454ms
+2024-08-29 17:08:42.024 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:08:42.024 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:08:42.024 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:42.024 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:08:42.025 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:08:42.025 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:08:42.026 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.4508ms
+2024-08-29 17:08:42.026 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:42.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.8426ms
+2024-08-29 17:08:44.742 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:08:44.742 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:08:44.742 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:44.742 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:08:44.743 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:08:44.743 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:08:44.743 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5463ms
+2024-08-29 17:08:44.743 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:44.744 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0047ms
+2024-08-29 17:08:54.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:08:54.895 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:08:54.896 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:54.896 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:08:54.897 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:08:54.897 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:08:54.897 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.3115ms
+2024-08-29 17:08:54.897 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:54.897 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.6796ms
+2024-08-29 17:08:56.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:08:56.454 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:08:56.454 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:56.454 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:08:56.456 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:08:56.456 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:08:56.456 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.6127ms
+2024-08-29 17:08:56.456 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:08:56.456 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0289ms
+2024-08-29 17:09:14.384 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:09:14.385 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:09:14.385 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:09:14.385 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:09:14.388 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:09:14.389 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:09:14.389 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.9133ms
+2024-08-29 17:09:14.389 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:09:14.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.5295ms
+2024-08-29 17:09:25.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:09:25.454 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:09:25.454 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:09:25.454 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:09:25.457 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:09:25.457 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:09:25.457 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.4458ms
+2024-08-29 17:09:25.457 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:09:25.457 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.9065ms
+2024-08-29 17:09:38.838 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:09:38.838 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:09:38.838 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:09:38.838 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:09:38.839 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:09:38.840 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:09:38.840 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.8255ms
+2024-08-29 17:09:38.840 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:09:38.840 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.292ms
+2024-08-29 17:10:00.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:00.227 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:00.227 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:00.227 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:00.228 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:00.228 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:00.229 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5735ms
+2024-08-29 17:10:00.229 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:00.229 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0202ms
+2024-08-29 17:10:02.204 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:02.204 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:02.204 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:02.205 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:02.206 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:02.207 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:02.207 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.1519ms
+2024-08-29 17:10:02.207 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:02.207 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.6838ms
+2024-08-29 17:10:04.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:04.695 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:04.696 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:04.696 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:04.697 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:04.697 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:04.697 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5475ms
+2024-08-29 17:10:04.697 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:04.697 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.9006ms
+2024-08-29 17:10:06.459 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:06.459 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:06.459 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:06.459 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:06.460 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:06.461 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:06.461 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.853ms
+2024-08-29 17:10:06.461 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:06.461 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.2277ms
+2024-08-29 17:10:20.443 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:20.443 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:20.443 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:20.443 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:20.448 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:20.448 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:20.448 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 5.1258ms
+2024-08-29 17:10:20.448 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:20.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.7463ms
+2024-08-29 17:10:28.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:28.051 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:28.051 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:28.051 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:28.052 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:28.052 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:28.053 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.3801ms
+2024-08-29 17:10:28.053 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:28.053 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.8144ms
+2024-08-29 17:10:36.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:36.730 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:36.730 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:36.730 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:36.731 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:36.732 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:36.732 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7732ms
+2024-08-29 17:10:36.732 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:36.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3091ms
+2024-08-29 17:10:38.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:10:38.155 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:10:38.155 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:38.155 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:10:38.156 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:10:38.156 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:10:38.157 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.2794ms
+2024-08-29 17:10:38.157 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:10:38.157 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.8084ms
+2024-08-29 17:11:15.837 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:15.837 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:15.838 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:15.838 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:15.839 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:15.839 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:15.839 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5322ms
+2024-08-29 17:11:15.839 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:15.839 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.943ms
+2024-08-29 17:11:19.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:19.813 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:19.813 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:19.814 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:19.815 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:19.815 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:19.815 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5935ms
+2024-08-29 17:11:19.815 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:19.815 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0678ms
+2024-08-29 17:11:28.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:28.149 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:28.149 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:28.149 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:28.152 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:28.153 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:28.153 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.575ms
+2024-08-29 17:11:28.153 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:28.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.4139ms
+2024-08-29 17:11:28.543 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:28.543 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:28.543 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:28.543 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:28.545 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:28.545 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:28.545 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.2835ms
+2024-08-29 17:11:28.545 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:28.546 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.9262ms
+2024-08-29 17:11:28.783 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:28.784 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:28.784 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:28.784 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:28.785 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:28.785 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:28.785 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.4012ms
+2024-08-29 17:11:28.785 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:28.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.8814ms
+2024-08-29 17:11:42.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:42.182 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:42.183 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:42.183 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:42.184 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:42.184 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:42.184 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7657ms
+2024-08-29 17:11:42.184 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:42.185 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.1738ms
+2024-08-29 17:11:42.591 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:42.591 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:42.591 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:42.591 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:42.593 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:42.593 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:42.593 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.7045ms
+2024-08-29 17:11:42.593 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:42.593 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0865ms
+2024-08-29 17:11:42.726 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:11:42.726 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:11:42.726 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:42.726 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:11:42.728 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:11:42.728 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:11:42.728 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5037ms
+2024-08-29 17:11:42.728 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:11:42.728 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.997ms
+2024-08-29 17:13:35.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:13:35.056 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:13:35.056 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:13:35.056 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:13:35.059 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:13:35.059 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:13:35.060 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.7604ms
+2024-08-29 17:13:35.060 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:13:35.060 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.3911ms
+2024-08-29 17:13:41.189 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:13:41.190 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:13:41.190 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:13:41.190 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:13:41.192 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:13:41.193 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:13:41.193 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.1916ms
+2024-08-29 17:13:41.193 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:13:41.193 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.8041ms
+2024-08-29 17:13:53.129 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:13:53.129 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:13:53.129 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:13:53.129 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:13:53.130 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:13:53.131 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:13:53.131 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.8418ms
+2024-08-29 17:13:53.131 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:13:53.131 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.3433ms
+2024-08-29 17:14:02.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:14:02.462 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:14:02.462 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:02.462 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:14:02.463 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:14:02.464 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:14:02.464 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 2.1093ms
+2024-08-29 17:14:02.464 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:02.464 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.8463ms
+2024-08-29 17:14:07.000 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:14:07.000 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:14:07.000 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:07.000 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:14:07.001 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:14:07.001 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:14:07.001 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.4032ms
+2024-08-29 17:14:07.002 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:07.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.7471ms
+2024-08-29 17:14:36.682 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:14:36.682 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:14:36.682 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:36.682 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:14:36.683 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:14:36.684 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:14:36.684 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.5758ms
+2024-08-29 17:14:36.684 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:36.684 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0886ms
+2024-08-29 17:14:46.012 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:14:46.012 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:14:46.012 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:46.012 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:14:46.015 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:14:46.015 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:14:46.015 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.1074ms
+2024-08-29 17:14:46.015 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:46.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.4211ms
+2024-08-29 17:14:53.092 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:14:53.092 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:14:53.092 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:53.092 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:14:53.093 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:14:53.094 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:14:53.094 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.292ms
+2024-08-29 17:14:53.094 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:14:53.094 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0211ms
+2024-08-29 17:15:05.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:15:05.016 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:15:05.016 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:05.016 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:15:05.017 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:15:05.017 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:15:05.017 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.3995ms
+2024-08-29 17:15:05.017 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:05.017 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.8021ms
+2024-08-29 17:15:29.513 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:15:29.513 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:15:29.513 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:29.514 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:15:29.514 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:15:29.515 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:15:29.515 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.2003ms
+2024-08-29 17:15:29.515 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:29.515 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.7292ms
+2024-08-29 17:15:30.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:15:30.870 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:15:30.870 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:30.870 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:15:30.871 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:15:30.871 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:15:30.872 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.2239ms
+2024-08-29 17:15:30.872 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:30.872 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.4988ms
+2024-08-29 17:15:32.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:15:32.211 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:15:32.211 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:32.212 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:15:32.213 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:15:32.213 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:15:32.213 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.1202ms
+2024-08-29 17:15:32.213 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:15:32.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.6475ms
+2024-08-29 17:18:29.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:18:29.835 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:18:29.835 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:18:29.835 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:18:29.840 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:18:29.840 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:18:29.840 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 5.4227ms
+2024-08-29 17:18:29.840 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:18:29.841 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 6.3072ms
+2024-08-29 17:18:44.797 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/8 - null null
+2024-08-29 17:18:44.798 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:18:44.799 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/8 - 204 null null 2.1182ms
+2024-08-29 17:18:44.802 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/8 - application/json 16
+2024-08-29 17:18:44.802 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:18:44.802 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:18:44.802 +03:00 [INF] Route matched with {action = "addItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addItem(Int32, WepAPICoreTasks1.DTOs.CartItemRequestDTO) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:18:44.809 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 17:18:44.814 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-08-29 17:18:44.815 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-29 17:18:44.815 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1) in 12.5811ms
+2024-08-29 17:18:44.815 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:18:44.815 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/8 - 204 null null 13.0791ms
+2024-08-29 17:18:52.518 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:18:52.518 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:18:52.518 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:18:52.518 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:18:52.520 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:18:52.520 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:18:52.520 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.4757ms
+2024-08-29 17:18:52.520 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:18:52.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 2.0177ms
+2024-08-29 17:19:43.999 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:19:43.999 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:19:44.000 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:19:44.000 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:19:44.015 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:19:44.015 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:19:44.016 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 15.7917ms
+2024-08-29 17:19:44.016 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:19:44.016 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 16.3557ms
+2024-08-29 17:20:36.222 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/3 - null null
+2024-08-29 17:20:36.223 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:20:36.223 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/3 - 204 null null 0.2524ms
+2024-08-29 17:20:36.225 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/3 - application/json 2
+2024-08-29 17:20:36.225 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:20:36.225 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:20:36.225 +03:00 [INF] Route matched with {action = "addItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addItem(Int32, WepAPICoreTasks1.DTOs.CartItemRequestDTO) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:20:36.233 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 17:20:36.241 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-08-29 17:20:36.242 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-29 17:20:36.242 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1) in 16.8478ms
+2024-08-29 17:20:36.242 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:20:36.242 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/3 - 204 null null 17.3113ms
+2024-08-29 17:20:40.661 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:20:40.661 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:20:40.661 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:20:40.661 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:20:40.664 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:20:40.664 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:20:40.665 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.6505ms
+2024-08-29 17:20:40.665 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:20:40.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.0212ms
+2024-08-29 17:21:46.004 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:21:46.004 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:21:46.004 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:21:46.004 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:21:46.018 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:21:46.018 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:21:46.018 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 14.3127ms
+2024-08-29 17:21:46.018 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:21:46.018 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 14.7367ms
+2024-08-29 17:22:20.032 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/3 - null null
+2024-08-29 17:22:20.032 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:22:20.032 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/3 - 204 null null 0.2992ms
+2024-08-29 17:22:20.035 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/3 - application/json 16
+2024-08-29 17:22:20.035 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:22:20.035 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:22:20.035 +03:00 [INF] Route matched with {action = "addItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addItem(Int32, WepAPICoreTasks1.DTOs.CartItemRequestDTO) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:22:20.045 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 17:22:20.065 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-08-29 17:22:20.065 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-29 17:22:20.065 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1) in 29.7377ms
+2024-08-29 17:22:20.065 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:22:20.065 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/3 - 204 null null 30.2644ms
+2024-08-29 17:22:24.385 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:22:24.385 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:22:24.385 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:22:24.385 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:22:24.396 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:22:24.396 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:22:24.397 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 11.3976ms
+2024-08-29 17:22:24.397 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:22:24.397 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 12.094ms
+2024-08-29 17:24:29.034 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:24:29.034 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:24:29.034 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:24:29.034 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:24:29.041 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:24:29.041 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:24:29.041 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 6.8271ms
+2024-08-29 17:24:29.041 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:24:29.041 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 7.3161ms
+2024-08-29 17:24:46.054 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/2 - null null
+2024-08-29 17:24:46.054 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:24:46.054 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/2 - 204 null null 0.3365ms
+2024-08-29 17:24:46.056 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/2 - application/json 17
+2024-08-29 17:24:46.057 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:24:46.057 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:24:46.057 +03:00 [INF] Route matched with {action = "addItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addItem(Int32, WepAPICoreTasks1.DTOs.CartItemRequestDTO) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:24:46.064 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-08-29 17:24:46.070 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-08-29 17:24:46.070 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-08-29 17:24:46.070 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1) in 13.3257ms
+2024-08-29 17:24:46.070 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-08-29 17:24:46.070 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/2 - 204 null null 13.7606ms
+2024-08-29 17:24:50.236 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:24:50.236 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:24:50.236 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:24:50.236 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:24:50.240 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:24:50.240 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:24:50.240 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.3701ms
+2024-08-29 17:24:50.240 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:24:50.240 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 3.7214ms
+2024-08-29 17:25:33.924 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:25:33.924 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:25:33.924 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:25:33.926 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:25:33.926 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:25:33.926 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.6269ms
+2024-08-29 17:25:33.926 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:25:33.926 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.9723ms
+2024-08-29 17:25:34.881 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:25:34.881 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:25:34.881 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:25:34.882 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:25:34.882 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:25:34.882 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.2751ms
+2024-08-29 17:25:34.882 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:25:34.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.5657ms
+2024-08-29 17:25:52.141 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44367/api/CartItem/DeleteItem/4 - null null
+2024-08-29 17:25:52.141 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:25:52.141 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-08-29 17:25:52.143 +03:00 [INF] Route matched with {action = "deleteItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult deleteItem(Int32) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:25:52.160 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-08-29 17:25:52.169 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [CartItemID] = @p0;
+2024-08-29 17:25:52.171 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-29 17:25:52.171 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1) in 27.3398ms
+2024-08-29 17:25:52.171 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-08-29 17:25:52.171 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44367/api/CartItem/DeleteItem/4 - 200 null text/plain; charset=utf-8 30.2917ms
+2024-08-29 17:25:57.744 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:25:57.745 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:25:57.745 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:25:57.751 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:25:57.752 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:25:57.752 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 7.0323ms
+2024-08-29 17:25:57.752 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:25:57.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 7.4246ms
+2024-08-29 17:29:17.218 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:29:17.218 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:29:17.218 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:29:17.218 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:29:17.224 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:29:17.224 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:29:17.224 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 6.2816ms
+2024-08-29 17:29:17.224 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:29:17.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 6.6705ms
+2024-08-29 17:29:47.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:29:47.985 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:29:47.985 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:29:47.985 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:29:47.986 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:29:47.986 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:29:47.986 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.4303ms
+2024-08-29 17:29:47.986 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:29:47.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.9644ms
+2024-08-29 17:30:30.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:30:30.695 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:30:30.695 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:30:30.695 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:30:30.699 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:30:30.700 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:30:30.700 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 4.4585ms
+2024-08-29 17:30:30.700 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:30:30.700 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.0245ms
+2024-08-29 17:33:11.528 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:33:11.528 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:33:11.528 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:33:11.528 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:33:11.532 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:33:11.532 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:33:11.532 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 4.2314ms
+2024-08-29 17:33:11.532 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:33:11.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.7807ms
+2024-08-29 17:33:23.968 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/DeleteItem/2 - null null
+2024-08-29 17:33:23.968 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:33:23.968 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/DeleteItem/2 - 204 null null 0.4208ms
+2024-08-29 17:33:23.970 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44367/api/CartItem/DeleteItem/2 - application/json null
+2024-08-29 17:33:23.970 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:33:23.970 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-08-29 17:33:23.970 +03:00 [INF] Route matched with {action = "deleteItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult deleteItem(Int32) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:33:23.974 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-08-29 17:33:23.979 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [CartItemID] = @p0;
+2024-08-29 17:33:23.980 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-08-29 17:33:23.980 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1) in 9.9571ms
+2024-08-29 17:33:23.980 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-08-29 17:33:23.980 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44367/api/CartItem/DeleteItem/2 - 200 null text/plain; charset=utf-8 10.5488ms
+2024-08-29 17:33:37.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:33:37.045 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:33:37.045 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:33:37.045 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:33:37.049 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:33:37.050 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:33:37.050 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 4.3366ms
+2024-08-29 17:33:37.050 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:33:37.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 4.7392ms
+2024-08-29 17:33:58.108 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-08-29 17:33:58.108 +03:00 [INF] CORS policy execution successful.
+2024-08-29 17:33:58.108 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:33:58.108 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-08-29 17:33:58.109 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-08-29 17:33:58.109 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-29 17:33:58.109 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 1.3664ms
+2024-08-29 17:33:58.110 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-08-29 17:33:58.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 1.7681ms

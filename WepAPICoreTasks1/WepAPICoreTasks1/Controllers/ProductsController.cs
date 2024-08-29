@@ -11,18 +11,27 @@ namespace WepAPICoreTasks1.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly MyDbContext _db;
+        private readonly ILogger<WeatherForecastController> _logger;
 
-        public ProductsController(MyDbContext db)
+        public ProductsController(MyDbContext db, ILogger<WeatherForecastController> logger)
         {
             _db = db;
+            _logger = logger;
         }
 
 
 
         [HttpGet]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(400)]
         public IActionResult getAllProducts()
         {
             var products = _db.Products.ToList();
+
+            _logger.LogInformation("All Product");
+            _logger.LogInformation("you excuted the get product api ");
+            _logger.LogInformation($"the cont of this products are {products.Count}");
+            _logger.LogInformation("the cont of this products are {}", products.Count);
             return Ok(products);
         }
 
@@ -48,6 +57,7 @@ namespace WepAPICoreTasks1.Controllers
             return Ok(products);
         }
         [HttpGet("Product/{id:min(5)}")]
+        [ProducesResponseType(404)]
 
         public IActionResult GetgetAllProductById(int id)
         {

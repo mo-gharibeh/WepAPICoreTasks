@@ -37,6 +37,7 @@ namespace WepAPICoreTasks1.Controllers
                     Price = x.Product.Price,
                     Description = x.Product.Description,
                     ProductName = x.Product.ProductName,
+
                 }
             }
             ).ToList();
@@ -58,6 +59,38 @@ namespace WepAPICoreTasks1.Controllers
                 _db.SaveChanges();
 
                 return Ok(NewCartItem);
+        }
+
+        [HttpDelete]
+        [Route("DeleteItem/{id}")]
+        public IActionResult deleteItem(int id)
+        {
+
+            var deleteItem = _db.CartItems.FirstOrDefault(i => i.CartItemId == id);
+            if (deleteItem != null)
+            {
+                _db.CartItems.Remove(deleteItem);
+                _db.SaveChanges();
+                return Ok($"Order '{id}' deleted successfully.");
+            }
+            return NotFound($"Order '{id}' not found.");
+        }
+
+        [HttpPut]
+        [Route("UpdateItem/{id}")]
+        public IActionResult addItem(int id, [FromBody] CartItemRequestDTO cartItemDTO)
+        {
+
+            var item = _db.CartItems.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            item.Quantity = cartItemDTO.Quantity;
+            _db.CartItems.Update(item);
+            _db.SaveChanges();
+            return NoContent();
+
         }
 
     }
