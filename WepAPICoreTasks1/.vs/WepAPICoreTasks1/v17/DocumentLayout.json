@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\cartitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\dtos\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\userrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\controllers\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\dtos\\cartitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\cartitemrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|c:\\users\\orange\\desktop\\wepapicoretasks\\wepapicoretasks\\wepapicoretasks1\\wepapicoretasks1\\dtos\\passwordhashernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938EE78E-40B7-4722-B777-963541F7D072}|WepAPICoreTasks1\\WepAPICoreTasks1.csproj|solutionrelative:wepapicoretasks1\\dtos\\passwordhashernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +30,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAHEAAAAAAAAAAAAswIEAAAAaAAAA",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Models\\User.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Models\\User.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\Models\\User.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T13:52:56.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartItemController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\CartItemController.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\CartItemController.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\CartItemController.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\CartItemController.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAowFUAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T08:32:35.76Z",
+              "WhenOpened": "2024-09-01T06:09:46.934Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CartItemRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\DTOs\\CartItemRequestDTO.cs",
-              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\CartItemRequestDTO.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\DTOs\\CartItemRequestDTO.cs",
-              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\CartItemRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAAAAwJEAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T13:50:54.779Z",
+              "WhenOpened": "2024-08-29T13:52:56.396Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\Register.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\Controllers\\Register.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\Controllers\\Register.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\Controllers\\Register.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwDEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T13:43:56.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\DTOs\\UserRequestDTO.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\UserRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\DTOs\\UserRequestDTO.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\UserRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:47:55.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasswordHasherNew.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\DTOs\\PasswordHasherNew.cs",
+              "RelativeDocumentMoniker": "WepAPICoreTasks1\\DTOs\\PasswordHasherNew.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WepAPICoreTasks\\WepAPICoreTasks\\WepAPICoreTasks1\\WepAPICoreTasks1\\DTOs\\PasswordHasherNew.cs",
+              "RelativeToolTip": "WepAPICoreTasks1\\DTOs\\PasswordHasherNew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T08:50:13.763Z",
               "EditorCaption": ""
             }
           ]

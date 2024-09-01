@@ -20,6 +20,17 @@ namespace WepAPICoreTasks1.Controllers
         }
 
 
+        [HttpGet("sortByName")]
+        public IActionResult Get()
+        {
+            var s = _db.Products.OrderByDescending(p => p.ProductName).Take(5);
+            var products = _db.Products.OrderBy(s => s.ProductName).Reverse().Take(5).Reverse().ToList();
+            var x = _db.Products.OrderBy(x => x.ProductName).ToList().TakeLast(5);
+
+
+            return Ok(x);
+        }
+
 
         [HttpGet]
         [ProducesResponseType(200)]

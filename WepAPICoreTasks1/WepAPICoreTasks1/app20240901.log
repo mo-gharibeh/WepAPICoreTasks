@@ -1,0 +1,579 @@
+2024-09-01 09:15:44.236 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 09:15:44.276 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:15:44.276 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:15:44.277 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 09:15:44.287 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 09:15:44.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:15:44.957 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 09:15:44.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 668.0854ms
+2024-09-01 09:15:44.959 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 3.6501ms
+2024-09-01 09:15:45.004 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.9928ms
+2024-09-01 09:15:45.205 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 09:15:45.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 118.9588ms
+2024-09-01 09:16:07.883 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products/sortByName - null null
+2024-09-01 09:16:07.896 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:16:07.914 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:16:08.660 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:16:09.259 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_0) [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName]
+2024-09-01 09:16:09.349 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1) in 1431.9737ms
+2024-09-01 09:16:09.350 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:16:09.356 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products/sortByName - 200 null application/json; charset=utf-8 1472.0648ms
+2024-09-01 09:16:43.357 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 09:16:43.397 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:16:43.397 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:16:43.397 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 09:16:43.405 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 09:16:43.527 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 122.2175ms
+2024-09-01 09:16:43.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 09:16:43.532 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:16:43.535 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.238ms
+2024-09-01 09:16:43.552 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6713ms
+2024-09-01 09:16:43.598 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 09:16:43.703 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.4001ms
+2024-09-01 09:16:52.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products/sortByName - null null
+2024-09-01 09:16:52.132 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:16:52.141 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:16:52.717 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:16:53.071 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName]
+2024-09-01 09:16:53.147 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1) in 1004.214ms
+2024-09-01 09:16:53.148 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:16:53.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products/sortByName - 200 null application/json; charset=utf-8 1026.3071ms
+2024-09-01 09:17:45.067 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 09:17:45.102 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:17:45.102 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:17:45.102 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 09:17:45.111 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 09:17:45.259 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 148.8909ms
+2024-09-01 09:17:45.269 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 09:17:45.269 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:17:45.272 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.3197ms
+2024-09-01 09:17:45.288 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.0336ms
+2024-09-01 09:17:45.499 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 09:17:45.590 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 90.8932ms
+2024-09-01 09:17:53.025 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products/sortByName - null null
+2024-09-01 09:17:53.030 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:17:53.043 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:17:53.662 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:17:53.755 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1) in 709.1204ms
+2024-09-01 09:17:53.756 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:17:53.759 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Product>()
+    .OrderBy(p => p.ProductName)
+    .TakeLast(__p_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Converters.IAsyncEnumerableOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TAsyncEnumerable value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IAsyncEnumerableOfTConverter`2.OnTryWrite(Utf8JsonWriter writer, TAsyncEnumerable value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 09:17:53.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products/sortByName - 500 null text/plain; charset=utf-8 766.5552ms
+2024-09-01 09:18:27.284 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 09:18:27.287 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 3.5192ms
+2024-09-01 09:18:27.300 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 09:18:27.301 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:18:27.302 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.7238ms
+2024-09-01 09:18:27.311 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.3947ms
+2024-09-01 09:18:27.382 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 09:18:27.393 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.7918ms
+2024-09-01 09:18:33.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products/sortByName - null null
+2024-09-01 09:18:33.677 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:18:33.678 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:18:33.687 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:18:33.692 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1) in 13.9984ms
+2024-09-01 09:18:33.692 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:18:33.692 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The LINQ expression 'DbSet<Product>()
+    .OrderBy(p => p.ProductName)
+    .TakeLast(__p_0)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Text.Json.Serialization.Converters.IAsyncEnumerableOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TAsyncEnumerable value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.IAsyncEnumerableOfTConverter`2.OnTryWrite(Utf8JsonWriter writer, TAsyncEnumerable value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(Stream utf8Json, T rootValue, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 09:18:33.695 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products/sortByName - 500 null text/plain; charset=utf-8 19.3217ms
+2024-09-01 09:18:45.785 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 09:18:45.818 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:18:45.819 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:18:45.819 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 09:18:45.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 09:18:45.973 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 145.8462ms
+2024-09-01 09:18:45.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 09:18:45.981 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:18:45.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.6199ms
+2024-09-01 09:18:46.003 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.233ms
+2024-09-01 09:18:46.081 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 09:18:46.180 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 98.8086ms
+2024-09-01 09:18:54.688 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products/sortByName - null null
+2024-09-01 09:18:54.701 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:18:54.709 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:18:55.307 +03:00 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:18:55.652 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(@__p_0) [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName] DESC
+2024-09-01 09:18:55.713 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1) in 1001.5131ms
+2024-09-01 09:18:55.714 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:18:55.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products/sortByName - 200 null application/json; charset=utf-8 1031.2777ms
+2024-09-01 09:23:54.631 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 09:23:54.666 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 09:23:54.666 +03:00 [INF] Hosting environment: Development
+2024-09-01 09:23:54.666 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 09:23:54.675 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 09:23:54.829 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 154.5714ms
+2024-09-01 09:23:54.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 09:23:54.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 09:23:54.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.5096ms
+2024-09-01 09:23:54.854 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.7513ms
+2024-09-01 09:23:54.949 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 09:23:55.021 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 72.0202ms
+2024-09-01 09:24:08.511 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/Products/sortByName - null null
+2024-09-01 09:24:08.519 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:24:08.536 +03:00 [INF] Route matched with {action = "Get", controller = "Products"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller WepAPICoreTasks1.Controllers.ProductsController (WepAPICoreTasks1).
+2024-09-01 09:24:09.658 +03:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[ProductID], [p].[CategoryID], [p].[Description], [p].[Price], [p].[ProductImage], [p].[ProductName]
+FROM [Products] AS [p]
+ORDER BY [p].[ProductName]
+2024-09-01 09:24:09.706 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+<TakeRangeFromEndIterator>d__281`1[[WepAPICoreTasks1.Models.Product, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 09:24:09.720 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1) in 1181.0097ms
+2024-09-01 09:24:09.720 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.ProductsController.Get (WepAPICoreTasks1)'
+2024-09-01 09:24:09.725 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/Products/sortByName - 200 null application/json; charset=utf-8 1213.2702ms
+2024-09-01 10:02:53.548 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-09-01 10:02:53.556 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:02:53.557 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-09-01 10:02:53.563 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-09-01 10:02:53.750 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-09-01 10:02:53.753 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 10:02:53.761 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 197.722ms
+2024-09-01 10:02:53.761 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-09-01 10:02:53.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 213.9018ms
+2024-09-01 10:03:08.423 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/3 - null null
+2024-09-01 10:03:08.424 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:03:08.426 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/UpdateItem/3 - 204 null null 3.0755ms
+2024-09-01 10:03:08.430 +03:00 [INF] Request starting HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/3 - application/json 16
+2024-09-01 10:03:08.432 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:03:08.433 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-09-01 10:03:08.446 +03:00 [INF] Route matched with {action = "addItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addItem(Int32, WepAPICoreTasks1.DTOs.CartItemRequestDTO) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-09-01 10:03:08.702 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__p_0
+2024-09-01 10:03:08.908 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [CartItems] SET [CartID] = @p0, [ProductID] = @p1, [Quantity] = @p2
+OUTPUT 1
+WHERE [CartItemID] = @p3;
+2024-09-01 10:03:08.925 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-09-01 10:03:08.925 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1) in 478.4115ms
+2024-09-01 10:03:08.925 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.addItem (WepAPICoreTasks1)'
+2024-09-01 10:03:08.926 +03:00 [INF] Request finished HTTP/2 PUT https://localhost:44367/api/CartItem/UpdateItem/3 - 204 null null 496.5692ms
+2024-09-01 10:03:11.769 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-09-01 10:03:11.769 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:03:11.770 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-09-01 10:03:11.770 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-09-01 10:03:11.778 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-09-01 10:03:11.779 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 10:03:11.780 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 9.558ms
+2024-09-01 10:03:11.780 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-09-01 10:03:11.781 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 11.6939ms
+2024-09-01 10:03:14.170 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44367/api/CartItem/DeleteItem/3 - null null
+2024-09-01 10:03:14.171 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:03:14.172 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44367/api/CartItem/DeleteItem/3 - 204 null null 1.5041ms
+2024-09-01 10:03:14.175 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:44367/api/CartItem/DeleteItem/3 - application/json null
+2024-09-01 10:03:14.176 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:03:14.176 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-09-01 10:03:14.180 +03:00 [INF] Route matched with {action = "deleteItem", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult deleteItem(Int32) on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-09-01 10:03:14.193 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartItemID], [c].[CartID], [c].[ProductID], [c].[Quantity]
+FROM [CartItems] AS [c]
+WHERE [c].[CartItemID] = @__id_0
+2024-09-01 10:03:14.230 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [CartItems]
+OUTPUT 1
+WHERE [CartItemID] = @p0;
+2024-09-01 10:03:14.237 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 10:03:14.238 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1) in 57.7847ms
+2024-09-01 10:03:14.238 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.deleteItem (WepAPICoreTasks1)'
+2024-09-01 10:03:14.238 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:44367/api/CartItem/DeleteItem/3 - 200 null text/plain; charset=utf-8 62.9183ms
+2024-09-01 10:03:17.401 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/api/CartItem - null null
+2024-09-01 10:03:17.401 +03:00 [INF] CORS policy execution successful.
+2024-09-01 10:03:17.402 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-09-01 10:03:17.402 +03:00 [INF] Route matched with {action = "GetAllData", controller = "CartItem"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllData() on controller WepAPICoreTasks1.Controllers.CartItemController (WepAPICoreTasks1).
+2024-09-01 10:03:17.405 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartID] AS [CartId], [c].[CartItemID] AS [CartItemId], [c].[Quantity], [p].[ProductID] AS [ProductId], [p].[Price], [p].[Description], [p].[ProductName]
+FROM [CartItems] AS [c]
+LEFT JOIN [Products] AS [p] ON [c].[ProductID] = [p].[ProductID]
+2024-09-01 10:03:17.405 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[WepAPICoreTasks1.DTOs.CartItemResponseDTO, WepAPICoreTasks1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-09-01 10:03:17.406 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1) in 3.6582ms
+2024-09-01 10:03:17.406 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.CartItemController.GetAllData (WepAPICoreTasks1)'
+2024-09-01 10:03:17.406 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/api/CartItem - 200 null application/json; charset=utf-8 5.2299ms
+2024-09-01 10:51:13.027 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 10:51:13.032 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 5.2523ms
+2024-09-01 10:51:13.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 10:51:13.045 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 10:51:13.046 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 0.7284ms
+2024-09-01 10:51:13.050 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 4.8275ms
+2024-09-01 10:51:13.137 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 10:51:13.145 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.7791ms
+2024-09-01 11:53:10.362 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 11:53:10.407 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 11:53:10.408 +03:00 [INF] Hosting environment: Development
+2024-09-01 11:53:10.408 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 11:53:10.418 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 11:53:11.081 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 663.9213ms
+2024-09-01 11:53:11.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 11:53:11.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 11:53:11.089 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.7281ms
+2024-09-01 11:53:11.119 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.6748ms
+2024-09-01 11:53:11.323 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 11:53:11.391 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST api/Users" for actions - WepAPICoreTasks1.Controllers.UsersController.CreateUser (WepAPICoreTasks1),WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-09-01 11:53:11.414 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 90.6241ms
+2024-09-01 11:53:46.680 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 11:53:46.737 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 11:53:46.738 +03:00 [INF] Hosting environment: Development
+2024-09-01 11:53:46.738 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 11:53:46.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 11:53:46.886 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 138.8194ms
+2024-09-01 11:53:46.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 11:53:46.891 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 11:53:46.893 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.9593ms
+2024-09-01 11:53:46.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.8564ms
+2024-09-01 11:53:46.985 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 11:53:47.054 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.9195ms
+2024-09-01 11:54:21.997 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/regester - multipart/form-data; boundary=----WebKitFormBoundaryVJuqDT4o5i8DReTz 351
+2024-09-01 11:54:22.001 +03:00 [INF] CORS policy execution successful.
+2024-09-01 11:54:22.005 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1)'
+2024-09-01 11:54:22.023 +03:00 [INF] Route matched with {action = "addUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 11:54:23.007 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 50), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-01 11:54:23.037 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-01 11:54:23.052 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1) in 1026.2943ms
+2024-09-01 11:54:23.052 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1)'
+2024-09-01 11:54:23.062 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/regester - 200 null application/json; charset=utf-8 1065.2052ms
+2024-09-01 12:24:17.257 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 12:24:17.293 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 12:24:17.294 +03:00 [INF] Hosting environment: Development
+2024-09-01 12:24:17.294 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 12:24:17.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 12:24:17.418 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 116.2482ms
+2024-09-01 12:24:17.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 12:24:17.424 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 12:24:17.426 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.7175ms
+2024-09-01 12:24:17.441 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.2079ms
+2024-09-01 12:24:17.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 12:24:17.779 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.8302ms
+2024-09-01 12:25:05.763 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - application/json 78
+2024-09-01 12:25:05.768 +03:00 [INF] CORS policy execution successful.
+2024-09-01 12:25:05.772 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 12:25:05.786 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 12:25:06.729 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[@__model_Username_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__model_Username_0
+2024-09-01 12:25:06.797 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 12:25:06.800 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 1011.0207ms
+2024-09-01 12:25:06.800 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 12:25:06.804 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 1041.5643ms
+2024-09-01 16:24:43.563 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 16:24:43.604 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:24:43.604 +03:00 [INF] Hosting environment: Development
+2024-09-01 16:24:43.604 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 16:24:43.614 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 16:24:43.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 140.119ms
+2024-09-01 16:24:43.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 16:24:43.762 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:24:43.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 1.9689ms
+2024-09-01 16:24:43.782 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.774ms
+2024-09-01 16:24:43.932 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 16:24:44.026 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.2346ms
+2024-09-01 16:31:13.690 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 16:31:13.740 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:31:13.741 +03:00 [INF] Hosting environment: Development
+2024-09-01 16:31:13.741 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 16:31:13.752 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 16:31:13.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 131.7997ms
+2024-09-01 16:31:13.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 16:31:13.895 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:31:13.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.4172ms
+2024-09-01 16:31:13.914 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.6547ms
+2024-09-01 16:31:14.207 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 16:31:14.284 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.0634ms
+2024-09-01 16:32:17.353 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/regester - multipart/form-data; boundary=----WebKitFormBoundaryCxRUstMy6dcqAeTx 339
+2024-09-01 16:32:17.356 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:32:17.361 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1)'
+2024-09-01 16:32:17.378 +03:00 [INF] Route matched with {action = "addUser", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:32:18.259 +03:00 [INF] Executed DbCommand (32ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 50), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-01 16:32:18.296 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-01 16:32:18.311 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1) in 930.1679ms
+2024-09-01 16:32:18.311 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.addUser (WepAPICoreTasks1)'
+2024-09-01 16:32:18.318 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/regester - 200 null application/json; charset=utf-8 965.628ms
+2024-09-01 16:32:30.176 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryBLkAeRXAbvCsVGnX 351
+2024-09-01 16:32:30.178 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:32:30.178 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:30.180 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:32:30.402 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__model_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0
+2024-09-01 16:32:30.411 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:32:30.412 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 232.1476ms
+2024-09-01 16:32:30.412 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:30.413 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 237.0077ms
+2024-09-01 16:32:46.225 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundarygP3Ks0aknThPC2QI 352
+2024-09-01 16:32:46.225 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:32:46.226 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:46.226 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:32:46.243 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0
+2024-09-01 16:32:46.243 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:32:46.244 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 17.5494ms
+2024-09-01 16:32:46.244 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:46.244 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 18.7123ms
+2024-09-01 16:32:52.375 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryccEYdGTbivqVuwd6 352
+2024-09-01 16:32:52.376 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:32:52.376 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:52.376 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:32:52.379 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0
+2024-09-01 16:32:52.379 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:32:52.379 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 3.0513ms
+2024-09-01 16:32:52.380 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:52.380 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 4.5342ms
+2024-09-01 16:32:59.759 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundary3BdsqigJnSVmg9Gn 355
+2024-09-01 16:32:59.759 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:32:59.759 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:59.759 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:32:59.762 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0
+2024-09-01 16:32:59.763 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:32:59.763 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 3.9218ms
+2024-09-01 16:32:59.763 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:32:59.763 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 4.7578ms
+2024-09-01 16:33:05.375 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundarytY8OO7J5P4Ar4xhF 356
+2024-09-01 16:33:05.376 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:33:05.376 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:33:05.376 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:33:05.379 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__model_Email_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0
+2024-09-01 16:33:05.381 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-09-01 16:33:05.381 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 5.4213ms
+2024-09-01 16:33:05.382 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:33:05.382 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 401 null text/plain; charset=utf-8 6.2587ms
+2024-09-01 16:34:04.288 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 16:34:04.328 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:34:04.328 +03:00 [INF] Hosting environment: Development
+2024-09-01 16:34:04.328 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 16:34:04.347 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 16:34:04.481 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 134.7546ms
+2024-09-01 16:34:04.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 16:34:04.490 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:34:04.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.8578ms
+2024-09-01 16:34:04.515 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.7459ms
+2024-09-01 16:34:04.822 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 16:34:04.892 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 69.6797ms
+2024-09-01 16:34:23.764 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryLjREhu34esKzbM6G 339
+2024-09-01 16:34:23.768 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:34:23.771 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:23.784 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:34:24.810 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__model_Email_0='?' (Size = 100), @__model_Username_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0 AND [u].[Username] = @__model_Username_1
+2024-09-01 16:34:24.891 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:34:24.895 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 1108.1219ms
+2024-09-01 16:34:24.895 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:24.901 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 1137.2613ms
+2024-09-01 16:34:31.151 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryR9dOcF48ycLeyByL 340
+2024-09-01 16:34:31.153 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:34:31.153 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:31.154 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:34:31.175 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Email_0='?' (Size = 100), @__model_Username_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0 AND [u].[Username] = @__model_Username_1
+2024-09-01 16:34:31.176 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-09-01 16:34:31.177 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 22.6827ms
+2024-09-01 16:34:31.177 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:31.177 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 401 null text/plain; charset=utf-8 25.7384ms
+2024-09-01 16:34:39.770 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundarygg8TwKXNG7bBAETB 340
+2024-09-01 16:34:39.770 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:34:39.770 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:39.770 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:34:39.829 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__model_Email_0='?' (Size = 100), @__model_Username_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0 AND [u].[Username] = @__model_Username_1
+2024-09-01 16:34:39.830 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-09-01 16:34:39.831 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 60.1041ms
+2024-09-01 16:34:39.831 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:39.831 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 401 null text/plain; charset=utf-8 61.2093ms
+2024-09-01 16:34:50.028 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundaryTZkN3oak3MttGXEZ 340
+2024-09-01 16:34:50.029 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:34:50.029 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:50.030 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:34:50.033 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 100), @__model_Username_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0 AND [u].[Username] = @__model_Username_1
+2024-09-01 16:34:50.033 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2024-09-01 16:34:50.033 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 3.8419ms
+2024-09-01 16:34:50.034 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:50.034 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 401 null text/plain; charset=utf-8 5.4856ms
+2024-09-01 16:34:55.705 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Users/login - multipart/form-data; boundary=----WebKitFormBoundary1pBgtAEfaXo6BcvJ 339
+2024-09-01 16:34:55.705 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:34:55.706 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:55.706 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.UsersController (WepAPICoreTasks1).
+2024-09-01 16:34:55.708 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__model_Email_0='?' (Size = 100), @__model_Username_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0 AND [u].[Username] = @__model_Username_1
+2024-09-01 16:34:55.709 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:34:55.709 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1) in 3.2803ms
+2024-09-01 16:34:55.709 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.UsersController.Login (WepAPICoreTasks1)'
+2024-09-01 16:34:55.709 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Users/login - 200 null text/plain; charset=utf-8 4.4065ms
+2024-09-01 16:35:59.132 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 16:35:59.170 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:35:59.171 +03:00 [INF] Hosting environment: Development
+2024-09-01 16:35:59.171 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 16:35:59.182 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 16:35:59.298 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 117.4718ms
+2024-09-01 16:35:59.308 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 16:35:59.308 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:35:59.310 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.119ms
+2024-09-01 16:35:59.327 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.988ms
+2024-09-01 16:35:59.456 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 16:35:59.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 77.1665ms
+2024-09-01 16:47:50.790 +03:00 [WRN] The WebRootPath was not found: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\wwwroot. Static files may be unavailable.
+2024-09-01 16:47:50.824 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-09-01 16:47:50.824 +03:00 [INF] Hosting environment: Development
+2024-09-01 16:47:50.824 +03:00 [INF] Content root path: C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1
+2024-09-01 16:47:50.832 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/index.html - null null
+2024-09-01 16:47:50.953 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/index.html - 200 null text/html;charset=utf-8 121.8984ms
+2024-09-01 16:47:50.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_vs/browserLink - null null
+2024-09-01 16:47:50.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - null null
+2024-09-01 16:47:50.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_framework/aspnetcore-browser-refresh.js - 200 13768 application/javascript; charset=utf-8 2.0985ms
+2024-09-01 16:47:50.983 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.647ms
+2024-09-01 16:47:51.082 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - null null
+2024-09-01 16:47:51.155 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44367/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.3376ms
+2024-09-01 16:48:46.891 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Register/register - multipart/form-data; boundary=----WebKitFormBoundaryVmonTzvIpAlh88m5 341
+2024-09-01 16:48:46.896 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:48:46.900 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.Register.addUser (WepAPICoreTasks1)'
+2024-09-01 16:48:46.915 +03:00 [INF] Route matched with {action = "addUser", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult addUser(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.Register (WepAPICoreTasks1).
+2024-09-01 16:48:47.948 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (Size = 100), @p1='?' (Size = 50), @p2='?' (Size = 8000) (DbType = Binary), @p3='?' (Size = 8000) (DbType = Binary), @p4='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Password], [PasswordHash], [PasswordSalt], [Username])
+OUTPUT INSERTED.[UserID]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-09-01 16:48:47.975 +03:00 [INF] Executing OkObjectResult, writing value of type 'WepAPICoreTasks1.Models.User'.
+2024-09-01 16:48:47.989 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.Register.addUser (WepAPICoreTasks1) in 1071.7346ms
+2024-09-01 16:48:47.990 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.Register.addUser (WepAPICoreTasks1)'
+2024-09-01 16:48:47.994 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Register/register - 200 null application/json; charset=utf-8 1102.5981ms
+2024-09-01 16:49:21.236 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44367/api/Register/login - multipart/form-data; boundary=----WebKitFormBoundaryd63exFUqiXkEbT3N 341
+2024-09-01 16:49:21.238 +03:00 [INF] CORS policy execution successful.
+2024-09-01 16:49:21.238 +03:00 [INF] Executing endpoint 'WepAPICoreTasks1.Controllers.Register.Login (WepAPICoreTasks1)'
+2024-09-01 16:49:21.240 +03:00 [INF] Route matched with {action = "Login", controller = "Register"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(WepAPICoreTasks1.DTOs.UserRequestDTO) on controller WepAPICoreTasks1.Controllers.Register (WepAPICoreTasks1).
+2024-09-01 16:49:21.496 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__model_Email_0='?' (Size = 100), @__model_Username_1='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserID], [u].[Email], [u].[Password], [u].[PasswordHash], [u].[PasswordSalt], [u].[Username]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__model_Email_0 AND [u].[Username] = @__model_Username_1
+2024-09-01 16:49:21.510 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-09-01 16:49:21.511 +03:00 [INF] Executed action WepAPICoreTasks1.Controllers.Register.Login (WepAPICoreTasks1) in 271.0445ms
+2024-09-01 16:49:21.512 +03:00 [INF] Executed endpoint 'WepAPICoreTasks1.Controllers.Register.Login (WepAPICoreTasks1)'
+2024-09-01 16:49:21.512 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44367/api/Register/login - 200 null text/plain; charset=utf-8 276.64ms
