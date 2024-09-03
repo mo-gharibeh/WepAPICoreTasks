@@ -1,10 +1,23 @@
 const n = localStorage.getItem("CategoryID");
-
+debugger
 const url = `https://localhost:44367/api/Products/category/${n}`;
 
 async function getCategory() {
 
-    let response = await fetch(url);
+    var token = localStorage.getItem("token");
+    if (token == null) {
+        alert("You must be logged in to view this page");
+        return;
+    }
+
+    var response = await fetch(url, {
+        method: 'GET',
+        headers: {
+            'Authorization': `Bearer ${token}`,
+        }
+    });
+
+
     var result = await response.json();
 
     console.log(response);

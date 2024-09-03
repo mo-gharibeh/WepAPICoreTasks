@@ -282,3 +282,4 @@ C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPIC
 C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\Orange\Desktop\WepAPICoreTasks\WepAPICoreTasks\WepAPICoreTasks1\WepAPICoreTasks1\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

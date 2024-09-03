@@ -31,7 +31,7 @@ namespace WepAPICoreTasks1.Controllers
         //////////////////////////////////////////////////////////////////////////////
 
 
-        [Route("name/{id:min(5)}")]
+        [Route("name/{id}")]
         [HttpGet]
 
         public IActionResult GetNameById(int id)
@@ -42,14 +42,14 @@ namespace WepAPICoreTasks1.Controllers
                 return BadRequest($"Invalid input: {id}");
             }
 
-            var categories = _db.Users.Where(model => model.UserId == id);
+            var user = _db.Users.Where(model => model.UserId == id);
 
-            if (categories == null)
+            if (user == null)
             {
-                return NotFound($"Category '{id}' not found.");
+                return NotFound($"User '{id}' not found.");
             }
 
-            return Ok(categories);
+            return Ok(user);
         }
 
 

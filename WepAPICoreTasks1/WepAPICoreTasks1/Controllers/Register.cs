@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
 using WepAPICoreTasks1.DTOs;
 using WepAPICoreTasks1.Models;
 
@@ -10,15 +12,18 @@ namespace WepAPICoreTasks1.Controllers
     public class Register : ControllerBase
     {
         private readonly MyDbContext _db;
+        private readonly TokenGenerator _tokenGenerator;
 
-        public Register(MyDbContext db)
+        public Register(MyDbContext db, TokenGenerator tokenGenerator)
         {
             _db = db;
+            _tokenGenerator = tokenGenerator;
         }
 
         [HttpPost("register")]
         public IActionResult addUser([FromForm] UserRequestDTO userDTO)
         {
+
             byte[] passwordHash;
             byte[] salt;
 
@@ -41,12 +46,18 @@ namespace WepAPICoreTasks1.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromForm] UserRequestDTO model)
         {
-            var user = _db.Users.FirstOrDefault(x => x.Email == model.Email && x.Username == model.Username);
+            var user = _db.Users.FirstOrDefault(x => x.Email == model.Email || x.Username == model.Username);
+
+
             if (user == null || !PasswordHasherNew.VerifyPasswordHash(model.Password, user.PasswordHash, user.PasswordSalt))
             {
                 return Unauthorized("Invalid username or password.");
             }
-            return Ok("User logged in successfully");
+            //return Ok("User logged in successfully");
+            var roles = _db.UserRoles.Where(x => x.UserId == user.UserId).Select(ur => ur.Role).ToList();
+            var token = _tokenGenerator.GenerateToken(user.Username, roles);
+
+            return Ok(new { Token = token, userid = user.UserId });
         }
     }
 }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">MyWebsite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="test.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Caregory.html">Category</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link"  onclick="reset()" href="Product.html">Product</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Cart.html">Cart</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Login.html"><button type="button" >Login</button></a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+    
+    <div class="container">
+        <a  href="Register.html" >Register</a>
+        <h2>Login</h2>
+        <form id="form" >
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="Username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="ُEmail" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="Password" required>
+            </div>
+            <button type="submit" onclick="login()" >Login</button>
+        </form>
+    </div>
+
+    <script>
+    debugger
+       
+        async function login() {
+            debugger
+            const url ="https://localhost:44367/api/Register/login"
+            let form = document.getElementById("form");
+            event.preventDefault();
+            let data = new FormData(form);
+            var responce = await fetch(url, {
+                method : 'POST',
+                body : data 
+            })
+            let result = await responce.json();
+            localStorage.setItem("token", result.token);  
+            alert("Logedin successfuly");
+
+        }
+
+    </script>
+</body>
+</html>
+
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+</style>

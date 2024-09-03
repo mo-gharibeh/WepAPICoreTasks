@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WepAPICoreTasks1.DTOs;
@@ -49,6 +50,7 @@ namespace WepAPICoreTasks1.Controllers
 
 
         ///// this
+        [Authorize]
         [Route("category/{id}")]
         [HttpGet]
         public IActionResult GetProductById(int id)
